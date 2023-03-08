@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.background {
+  background-image: url("../images/bgHome.jpg");
+  height: 100%vh;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.light {
+  color: aliceblue;
+}
+
+
+/*
+image {
+ background-image: url("https://unsplash.com/photos/odxB5oIG_iA") ;
+} */

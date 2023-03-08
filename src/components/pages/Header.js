@@ -1,6 +1,7 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function Blog() {
+function Header(props) {
   return (
     <div>
       <h1>Blog Page</h1>
@@ -20,4 +21,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Header;

@@ -1,6 +1,6 @@
 import React from "react";
+import "../../css/home.css";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../../images/bgHome.jpg";
 import "../../css/home.css";
 
@@ -18,7 +18,7 @@ function Home() {
           <h1 className="light">Hello!</h1>
           <h3 className="light">Welcome to my Portfolio.</h3>
           <p className="light">
-            {" "}
+            
             lNunc pharetra finibus est at efficitur. Praesent sed congue diam.
             Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
             mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

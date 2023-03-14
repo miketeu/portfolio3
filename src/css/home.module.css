@@ -16,7 +16,7 @@ img {
 }
 
 .background {
-  background-image: url("../images/bgHome.jpg");
+  
   height: 100vh;
   background-size: cover;
   padding: 1rem;

@@ -1,15 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../images/building.jpg";
+import "../images/building.jpg";
 import "../pages/ProjectGallery.css"
 
 
 function ProjectGallery() {
   return (
+ 
     <div className="wrapper">
-      
+   
       <Card
-        img src="../../images/building.jpg" alt="" className="building"
+       img="https://images.unsplash.com/photo-1678664755731-5c893669ea3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" className="building" 
           title="Project 1"
           description="My first project Bleh blah! blah blah Bleh blah! blah blah"
         />

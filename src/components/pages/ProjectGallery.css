@@ -1,0 +1,41 @@
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    width: 80%;
+    margin: auto;
+    
+}
+.card image{
+        height: 12rem;
+        width: 100%;
+        object-fit: cover;
+    }
+.card title{
+        padding: 1rem;
+}
+
+.card description{
+    padding: 0 1rem;
+
+}
+
+.card btn {
+    padding:1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid gray;
+    background: transparent;
+    border-radius: 5px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.card hover{
+    transform: scale(1.02);
+}

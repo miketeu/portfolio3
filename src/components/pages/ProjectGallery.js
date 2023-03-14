@@ -1,20 +1,44 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../images/building.jpg";
+import "../pages/ProjectGallery.css"
 
 
 function ProjectGallery() {
   return (
-    <div>
-      <h1>Project Gallery</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
+    <div className="wrapper">
+      
+      <Card
+        img src="../../images/building.jpg" alt="" className="building"
+          title="Project 1"
+          description="My first project Bleh blah! blah blah Bleh blah! blah blah"
+        />
+        
+        <Card
+        
+          title="Project 2"
+          description="My first project Bleh blah! blah blah Bleh blah! blah blah"
+        />
+            
+      <Card
+        
+          title="Project 3"
+          description="My first project Bleh blah! blah blah Bleh blah! blah blah"
+        />
+      </div>
+    )
+    }
+
+    function Card(props){
+      return(
+      <div className="card">
+        <div className="card_body"></div>
+        <img src={props.img} alt="" className="card__image" />
+        <h2 className= "card__title"> {props.title}</h2>
+        <p className="card__description"> {props.description} </p>
+        <button className="card_button">View Project</button>
+      </div>
+  )
 }
 
 export default ProjectGallery;

@@ -1,22 +1,38 @@
 import React from "react";
 import "../../css/home.module.css";
-import "../images/bgHome.jpg";
-import "../images/MugShot.png"
+import BG from"../images/bgHome.jpg";
+import MugShot from"../images/MugShot.png";
 
+
+<>
+
+< BG
+       className="background"
+        
+           BG = {BG} alt=""
+
+/>
+<MugShot
+ className="logo"
+    MugShot = {MugShot} alt="Mug Shot"
+/>
+</>
 
 function Home() {
   return (
     <>
-      <section className="background">
-        
-          <img src="../images/bgHome.jpg" alt="" />
 
-          <div className="logo">
-            <img src= "../images/MugShot.png" alt="Mug Shot" />
-          </div>
+<div className="section">
 
-          <h1 className="light">Hello!</h1>
-          <h3 className="light">Welcome to my Portfolio.</h3>
+         <div>
+          <BG src={BG} alt=""></BG>
+         </div>
+         <div>
+          <MugShot src={MugShot} alt=""></MugShot>
+         </div>
+
+
+ 
 
          
           <p className="light">
@@ -36,7 +52,7 @@ function Home() {
             amet facilisis lectus blandit at.
           </p>
         
-      </section>
+      </div>
     </>
   );
 }

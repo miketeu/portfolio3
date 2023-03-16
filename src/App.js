@@ -16,8 +16,8 @@ function App() {
         <Routes basename="portfolio3">
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
-       { /*  <Route path="/portfolio3/Home" element={<Home />} /> */}
+          <Route path="portfolio3/Home /" element ={<Home/>} />
+       {  /* <Route path="/portfolio3/Home" element={<Home />} />*/ }
 
           <Route path="portfolio3/Header" element={<Header />} />
           <Route path="portfolio3/ProjectGallery/" element={<ProjectGallery />} />

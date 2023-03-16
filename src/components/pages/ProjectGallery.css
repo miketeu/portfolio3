@@ -60,9 +60,7 @@ body{
     transition: background 200ms ease-in, color 200ms ease-in;
 }
 
-.card hover{
-    transform: scale(1.01);
-}
+
 
 /*Button to take  viewer to project page where selected project will be shown.*/
 
@@ -82,7 +80,7 @@ button {
     transform: scale(1.02);
 }
 
-:hover button {
+button:hover {
     background: rgb(50, 94, 164);
     color: white;
 }

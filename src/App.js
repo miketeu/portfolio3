@@ -13,15 +13,15 @@ function App() {
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
-        <Routes basename="portfolio3">
+        <Routes basename="portfolio3/">
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="portfolio3/Home /" element ={<Home/>} />
+          <Route path="portfolio3/Home/" element ={<Home/>} />
        {  /* <Route path="/portfolio3/Home" element={<Home />} />*/ }
 
-          <Route path="portfolio3/Header" element={<Header />} />
+          <Route path="portfolio3/Header/" element={<Header />} />
           <Route path="portfolio3/ProjectGallery/" element={<ProjectGallery />} />
-          <Route path="portfolio3/Project" element={<Project />} />
+          <Route path="portfolio3/Project/" element={<Project />} />
           {/* Define a route that will have descendant routes */}
           <Route path="portfolio3/contact/*" element={<Contact />} />
         

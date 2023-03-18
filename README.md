@@ -1,6 +1,2 @@
-<<<<<<< HEAD
-# PORTFOLIO
-=======
  # PORTFOLIO
->>>>>>> 947b50d125e3eec851613da942682da02c499e02
 

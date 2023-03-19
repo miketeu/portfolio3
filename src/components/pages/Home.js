@@ -1,7 +1,10 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../pages/ProjectGallery.css";
 import "../../css/home.module.css";
 import BG from "../images/bgHome.jpg";
 import MugShot from "../images/MugShot.png";
+import Building from "../images/building.jpg";
 
 <>
   <img className="background" BG={BG} alt="" />
@@ -10,43 +13,44 @@ import MugShot from "../images/MugShot.png";
 
 function Home() {
   return (
-
-    
-
-
     <>
       <div className="section">
+        <div style={{ backgroundImage: `url(${BG})` }}>
+          <div>
+            <img src={MugShot} alt=""></img>
+          </div>
 
-    <div style={{ backgroundImage:`url(${BG})` }}>
-  
-    
+          <h1 className="fph1">My Portfolio</h1>
 
- 
-     
-        <div>
-          <img src={MugShot} alt=""></img>
-        </div>
-
-        <h1 className="light">My Portfolio</h1>
-        <p >
-          lNunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mlis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus
-          cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit
-          at. lNunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus
-          cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit
-          at.
-        </p>
+          <div className="wrapper">
+            <Card
+              img={Building}
+              alt="Glass building facade"
+              className=""
+              title="Project Details"
+              description="Hello and welcome to My Portfolio. Take a moment to view the video and see where we are with this portfolio."
+            />
+          </div>
         </div>
       </div>
     </>
   );
 }
+
+function Card(props) {
+  return (
+    
+
+    <div className="card">
+      <div className="card_body"></div>
+      <img src={props.img} alt="" className="card__image" />
+      <h2 className="card__title"> {props.title}</h2>
+      <p className="card__description"> {props.description} </p>
+      <button className="card_button">View Project</button>
+    </div>
+  
+  );
+}
+
 
 export default Home;

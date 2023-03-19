@@ -25,10 +25,21 @@ img {
 
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 4em;
+  height: 4em;
   
 }
+
+/*Hi on front page*/
+.fph1 {
+  margin-top: 1em;
+}
+
+/*Front page card*/
+.fpcard {
+  width: 30%;
+}
+
 
 .background {
   

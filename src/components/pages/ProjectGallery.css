@@ -40,7 +40,8 @@ body{
         width: 100%;
         object-fit: cover;
     }
-.card title{
+.card__title{
+        padding-top: 1rem;
         padding: 1rem;
 }
 

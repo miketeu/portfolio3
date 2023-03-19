@@ -21,7 +21,7 @@ function Home() {
   
     
 
-
+ 
      
         <div>
           <img src={MugShot} alt=""></img>

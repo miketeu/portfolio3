@@ -10,11 +10,11 @@ function ProjectGallery() {
     
     <div className="wrapper">
       <Card
-        img="https://images.unsplash.com/photo-1678664755731-5c893669ea3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        img={MugShot}
         alt=""
         className=""
         title="Project 1"
-        description="My first project Bleh blah! blah blah Bleh blah! blah blah"
+        description="Hello and welcome to My Portfolio gallery. Take a moment to view the video and see where we are with this portfolio."
       />
 
       <Card

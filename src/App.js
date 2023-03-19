@@ -20,14 +20,13 @@ function App() {
        {  /* <Route path="/portfolio3/Home" element={<Home />} />*/ }
 
 <<<<<<< HEAD
-          <Route path="portfolio3/Header/" element={<Header />} />
-          <Route path="portfolio3/ProjectGallery/" element={<ProjectGallery />} />
-          <Route path="portfolio3/Project/" element={<Project />} />
+          <><Route path="portfolio3/Header/" element={<Header />} /><Route path="portfolio3/ProjectGallery/" element={<ProjectGallery />} /><Route path="portfolio3/Project/" element={<Project />} /></>
 =======
           <Route path="portfolio3/Header" element={<Header/>} />
           <Route path="portfolio3/ProjectGallery/" element={<ProjectGallery />} />
           <Route path="portfolio3/Project" element={<Project/>} />
 >>>>>>> 224a56ea0afcdf4da41edbc344d0024cf3e9563d
+
           {/* Define a route that will have descendant routes */}
           <Route path="portfolio3/contact/*" element={<Contact/>} />
         
